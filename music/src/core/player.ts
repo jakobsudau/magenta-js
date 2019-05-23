@@ -402,7 +402,7 @@ export class Player extends BasePlayer {
     if (program !== undefined && program >= 32 && program <= 39) {
       return this.bassSynth;
     } else {
-      return this.polySynth
+      return this.polySynth;
     }
   }
 }
